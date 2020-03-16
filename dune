@@ -1,0 +1,5 @@
+(executable
+ (name i3wpd)
+ (libraries lwt lwt.unix i3ipc react lwt_react)
+ (preprocess
+  (pps lwt_ppx)))
